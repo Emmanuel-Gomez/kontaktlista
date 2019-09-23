@@ -1,0 +1,121 @@
+html {
+	height: 100%;
+	background-repeat: no-repeat;
+	background: linear-gradient(#2F3142 60%, #65667A);
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Main */
+
+.app {
+	padding: 20px;
+}
+
+.app-header {
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px 5px;
+}
+
+@media (min-width: 640px) {
+	.wrapper {
+	  display: flex;
+	}
+	.content {
+	  flex-grow: 1;
+	  flex-shrink: 0;
+	  flex-basis: 70%;
+	}
+}
+
+.filter-input {
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.magnifier-icon {
+	margin-top: 5px;
+}
+
+.filter-input p:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.search-input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	padding: 10px;
+	color: white;
+	font-size: 25px;
+	background-color: #3A3D53;
+}
+
+.search-label {
+	height: 40px;
+	display: flex;
+	padding: 10px;
+	border: #3A3D53;
+	border-radius: 6px;
+	margin-bottom: 10px;
+	background-color: #3A3D53;
+}
+.app-content {
+	position: relative;
+	min-height: 500px;
+}
+
+/* Contact List */
+
+.contact-list {
+	position: relative;
+}
+
+.list-item {
+	background-color: #3A3D51;
+	padding: 10px;
+	color: white;
+	margin-bottom: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Contact page */
+
+.contact-page {
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #B7C0CE;
+}
+
+.contact-page-first-row {
+	display: flex;
+	align-items: center;
+	margin: 5px 10px;
+	padding: 10px;
+}
+
+.contact-page-second-row {
+	display: flex;
+	align-items: center;
+	margin: 5px 10px;
+	padding: 10px;
+}
+
+.close-button {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+}
+
+.contact-name {
+	font-weight: bold;
+	margin-right: 10px;
+}

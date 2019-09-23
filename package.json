@@ -1,0 +1,25 @@
+{
+	"name": "Kodprov-Beamon",
+	"author": "Emmanuel Gomez",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "ISC",
+	"scripts": {
+		"clean": "node fuse clean",
+		"start": "node fuse",
+		"build": "node fuse build"
+	},
+	"dependencies": {
+		"mobx": "^5.13.0",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0"
+	},
+	"devDependencies": {
+		"@types/node": "^12.7.5",
+		"@types/react": "^16.9.2",
+		"fuse-box": "^3.5.0",
+		"mobx-react": "^6.1.3",
+		"typescript": "^3.0.3",
+		"uglify-es": "^3.3.9"
+	}
+}

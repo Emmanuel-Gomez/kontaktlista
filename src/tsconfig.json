@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"target": "es2015",
+		"jsx": "react",
+		"baseUrl": ".",
+		"importHelpers": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true
+	},
+	"exclude": ["node_modules", "dist"]
+}
