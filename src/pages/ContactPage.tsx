@@ -1,6 +1,6 @@
 import * as React from "react";
 import { IContactController } from "../controllers/ContactController"
-import { star, starBorder } from "../../assets";
+import { star, starBorder, closeIcon } from "../../assets";
 import { observer } from 'mobx-react';
 
 interface IContactPage {
@@ -31,7 +31,9 @@ export class ContactPage extends React.Component<IContactPage> {
 					}}>
 						<img src={favoritIcon}/>
 					</div>
-					<div className="close-button" onClick={() => controller.onCloseContactPage()}>✖️</div>
+					<div className="close-button" onClick={() => controller.onCloseContactPage()}>
+						<img src={closeIcon}/>
+					</div>
 				</div>
 				<div className="contact-page-second-row">{email}</div>
 			</div>
