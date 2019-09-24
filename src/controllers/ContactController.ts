@@ -16,6 +16,7 @@ export interface IContactController {
 	toggleFilter: () => void;
 	onCloseContactPage: () => void;
 	onSearch: (searchQuery: string) => void;
+	onChange: (key: string, value: string) => void;
 	toogleFavorite: (contact: ContactModel) => void;
 	onSelectContact: (contact: ContactModel) => void;
 }
@@ -77,5 +78,10 @@ export class ContactController implements IContactController {
 	@action
 	public onCloseContactPage(): void {
 		this.selectedContact = null;
+	}
+
+	@action
+	public onChange(key: string, value: string): void {
+		this.selectedContact[key] = value;
 	}
 }

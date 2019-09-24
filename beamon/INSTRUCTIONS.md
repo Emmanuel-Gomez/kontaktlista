@@ -47,8 +47,8 @@ Designbilder
 Utgå från designbilderna nedan som gäller den mobila versionen av webbappen.
 I mappen _assets_ finns grafik som du kan använda.
 
-<img src="assets/spec-list.png" alt="contact list" width="320">  
+<img src="../assets/spec-list.png" alt="contact list" width="320">  
 Överblicksvy: Lista över kontakter  
 
-<img src="assets/spec-details.png" alt="contact details" width="320">  
+<img src="../assets/spec-details.png" alt="contact details" width="320">  
 Detaljerad vy: Kontaktuppgifter för en person
