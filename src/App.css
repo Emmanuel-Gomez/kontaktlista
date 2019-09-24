@@ -18,41 +18,15 @@ html {
 	margin: 10px 5px;
 }
 
-@media (min-width: 640px) {
-	.wrapper {
-	  display: flex;
-	}
-	.content {
-	  flex-grow: 1;
-	  flex-shrink: 0;
-	  flex-basis: 70%;
-	}
-}
-
 .filter-input {
 	color: white;
 	display: flex;
 	justify-content: flex-end;
 }
 
-.magnifier-icon {
-	margin-top: 5px;
-}
-
 .filter-input p:hover {
 	opacity: 0.8;
 	cursor: pointer;
-}
-
-.search-input {
-	width: 100%;
-	height: 100%;
-	border: none;
-	outline: none;
-	padding: 10px;
-	color: white;
-	font-size: 25px;
-	background-color: #3A3D53;
 }
 
 .search-label {
@@ -64,6 +38,23 @@ html {
 	margin-bottom: 10px;
 	background-color: #3A3D53;
 }
+
+.search-input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	padding: 10px;
+	color: white;
+	font-size: 25px;
+	min-width: 40px;
+	background-color: #3A3D53;
+}
+
+.magnifier-icon {
+	margin-top: 5px;
+}
+
 .app-content {
 	position: relative;
 	min-height: 500px;

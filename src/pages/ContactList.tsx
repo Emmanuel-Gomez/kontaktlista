@@ -27,7 +27,7 @@ export class ContactList extends React.Component<IContactList> {
 				className="list-item"
 				onClick={() => this.props.controller.onSelectContact(contact)}>
 
-				{contact.name}
+					{contact.name}
 
 				<div className="star-icon" onClick={evt => {
 					evt.stopPropagation();
